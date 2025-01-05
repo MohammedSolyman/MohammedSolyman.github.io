@@ -1,0 +1,6 @@
+# .htaccess (for Apache)
+AddType application/wasm .wasm
+
+# _headers (for GitHub Pages)
+/*.wasm
+  Content-Type: application/wasm
